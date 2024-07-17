@@ -1,0 +1,24 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+input {
+  height: 1.5rem;
+  margin: 0.5rem;
+}
+.cards {
+  display: flex;
+  
+  justify-content: center;
+  /* align-items: center; */
+  flex-direction: column;
+  padding: 1rem;
+  gap: 2rem;
+}
+
+.card {
+  background-color: #888;
+  border: 3px solid black;
+  padding: 1rem;
+}
